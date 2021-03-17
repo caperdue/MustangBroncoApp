@@ -9,23 +9,15 @@
 /* Begin PBXBuildFile section */
 		4234EC5626026459000898B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4234EC5526026459000898B1 /* AppDelegate.swift */; };
 		4234EC5826026459000898B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4234EC5726026459000898B1 /* SceneDelegate.swift */; };
-		4234EC5A26026459000898B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4234EC5926026459000898B1 /* ViewController.swift */; };
+		4234EC5A26026459000898B1 /* MustangBroncoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4234EC5926026459000898B1 /* MustangBroncoController.swift */; };
 		4234EC5D26026459000898B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4234EC5B26026459000898B1 /* Main.storyboard */; };
 		4234EC5F2602645B000898B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4234EC5E2602645B000898B1 /* Assets.xcassets */; };
 		4234EC622602645B000898B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4234EC602602645B000898B1 /* LaunchScreen.storyboard */; };
-		4234EC6D2602645B000898B1 /* MustangBroncoGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4234EC6C2602645B000898B1 /* MustangBroncoGUITests.swift */; };
-		4234EC782602645B000898B1 /* MustangBroncoGUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4234EC772602645B000898B1 /* MustangBroncoGUIUITests.swift */; };
+		4234EC6D2602645B000898B1 /* MustangBroncoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4234EC6C2602645B000898B1 /* MustangBroncoTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		4234EC692602645B000898B1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4234EC4A26026459000898B1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4234EC5126026459000898B1;
-			remoteInfo = MustangBroncoGUI;
-		};
-		4234EC742602645B000898B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4234EC4A26026459000898B1 /* Project object */;
 			proxyType = 1;
@@ -38,17 +30,14 @@
 		4234EC5226026459000898B1 /* MustangBroncoGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MustangBroncoGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4234EC5526026459000898B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4234EC5726026459000898B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4234EC5926026459000898B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4234EC5926026459000898B1 /* MustangBroncoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MustangBroncoController.swift; sourceTree = "<group>"; };
 		4234EC5C26026459000898B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4234EC5E2602645B000898B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4234EC612602645B000898B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4234EC632602645B000898B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4234EC682602645B000898B1 /* MustangBroncoGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MustangBroncoGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4234EC6C2602645B000898B1 /* MustangBroncoGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MustangBroncoGUITests.swift; sourceTree = "<group>"; };
+		4234EC682602645B000898B1 /* MustangBroncoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MustangBroncoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4234EC6C2602645B000898B1 /* MustangBroncoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MustangBroncoTests.swift; sourceTree = "<group>"; };
 		4234EC6E2602645B000898B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4234EC732602645B000898B1 /* MustangBroncoGUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MustangBroncoGUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4234EC772602645B000898B1 /* MustangBroncoGUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MustangBroncoGUIUITests.swift; sourceTree = "<group>"; };
-		4234EC792602645B000898B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +55,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4234EC702602645B000898B1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +63,6 @@
 			children = (
 				4234EC5426026459000898B1 /* MustangBroncoGUI */,
 				4234EC6B2602645B000898B1 /* MustangBroncoGUITests */,
-				4234EC762602645B000898B1 /* MustangBroncoGUIUITests */,
 				4234EC5326026459000898B1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				4234EC5226026459000898B1 /* MustangBroncoGUI.app */,
-				4234EC682602645B000898B1 /* MustangBroncoGUITests.xctest */,
-				4234EC732602645B000898B1 /* MustangBroncoGUIUITests.xctest */,
+				4234EC682602645B000898B1 /* MustangBroncoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,7 +81,7 @@
 			children = (
 				4234EC5526026459000898B1 /* AppDelegate.swift */,
 				4234EC5726026459000898B1 /* SceneDelegate.swift */,
-				4234EC5926026459000898B1 /* ViewController.swift */,
+				4234EC5926026459000898B1 /* MustangBroncoController.swift */,
 				4234EC5B26026459000898B1 /* Main.storyboard */,
 				4234EC5E2602645B000898B1 /* Assets.xcassets */,
 				4234EC602602645B000898B1 /* LaunchScreen.storyboard */,
@@ -113,19 +93,10 @@
 		4234EC6B2602645B000898B1 /* MustangBroncoGUITests */ = {
 			isa = PBXGroup;
 			children = (
-				4234EC6C2602645B000898B1 /* MustangBroncoGUITests.swift */,
+				4234EC6C2602645B000898B1 /* MustangBroncoTests.swift */,
 				4234EC6E2602645B000898B1 /* Info.plist */,
 			);
 			path = MustangBroncoGUITests;
-			sourceTree = "<group>";
-		};
-		4234EC762602645B000898B1 /* MustangBroncoGUIUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4234EC772602645B000898B1 /* MustangBroncoGUIUITests.swift */,
-				4234EC792602645B000898B1 /* Info.plist */,
-			);
-			path = MustangBroncoGUIUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,9 +119,9 @@
 			productReference = 4234EC5226026459000898B1 /* MustangBroncoGUI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4234EC672602645B000898B1 /* MustangBroncoGUITests */ = {
+		4234EC672602645B000898B1 /* MustangBroncoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4234EC7F2602645B000898B1 /* Build configuration list for PBXNativeTarget "MustangBroncoGUITests" */;
+			buildConfigurationList = 4234EC7F2602645B000898B1 /* Build configuration list for PBXNativeTarget "MustangBroncoTests" */;
 			buildPhases = (
 				4234EC642602645B000898B1 /* Sources */,
 				4234EC652602645B000898B1 /* Frameworks */,
@@ -161,28 +132,10 @@
 			dependencies = (
 				4234EC6A2602645B000898B1 /* PBXTargetDependency */,
 			);
-			name = MustangBroncoGUITests;
+			name = MustangBroncoTests;
 			productName = MustangBroncoGUITests;
-			productReference = 4234EC682602645B000898B1 /* MustangBroncoGUITests.xctest */;
+			productReference = 4234EC682602645B000898B1 /* MustangBroncoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4234EC722602645B000898B1 /* MustangBroncoGUIUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4234EC822602645B000898B1 /* Build configuration list for PBXNativeTarget "MustangBroncoGUIUITests" */;
-			buildPhases = (
-				4234EC6F2602645B000898B1 /* Sources */,
-				4234EC702602645B000898B1 /* Frameworks */,
-				4234EC712602645B000898B1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4234EC752602645B000898B1 /* PBXTargetDependency */,
-			);
-			name = MustangBroncoGUIUITests;
-			productName = MustangBroncoGUIUITests;
-			productReference = 4234EC732602645B000898B1 /* MustangBroncoGUIUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -197,10 +150,6 @@
 						CreatedOnToolsVersion = 12.4;
 					};
 					4234EC672602645B000898B1 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 4234EC5126026459000898B1;
-					};
-					4234EC722602645B000898B1 = {
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = 4234EC5126026459000898B1;
 					};
@@ -220,8 +169,7 @@
 			projectRoot = "";
 			targets = (
 				4234EC5126026459000898B1 /* MustangBroncoGUI */,
-				4234EC672602645B000898B1 /* MustangBroncoGUITests */,
-				4234EC722602645B000898B1 /* MustangBroncoGUIUITests */,
+				4234EC672602645B000898B1 /* MustangBroncoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,13 +192,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4234EC712602645B000898B1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,7 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4234EC5A26026459000898B1 /* ViewController.swift in Sources */,
+				4234EC5A26026459000898B1 /* MustangBroncoController.swift in Sources */,
 				4234EC5626026459000898B1 /* AppDelegate.swift in Sources */,
 				4234EC5826026459000898B1 /* SceneDelegate.swift in Sources */,
 			);
@@ -268,15 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4234EC6D2602645B000898B1 /* MustangBroncoGUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4234EC6F2602645B000898B1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4234EC782602645B000898B1 /* MustangBroncoGUIUITests.swift in Sources */,
+				4234EC6D2602645B000898B1 /* MustangBroncoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +220,6 @@
 			isa = PBXTargetDependency;
 			target = 4234EC5126026459000898B1 /* MustangBroncoGUI */;
 			targetProxy = 4234EC692602645B000898B1 /* PBXContainerItemProxy */;
-		};
-		4234EC752602645B000898B1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4234EC5126026459000898B1 /* MustangBroncoGUI */;
-			targetProxy = 4234EC742602645B000898B1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -513,46 +441,6 @@
 			};
 			name = Release;
 		};
-		4234EC832602645B000898B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CX33TF45SH;
-				INFOPLIST_FILE = MustangBroncoGUIUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.carlyperdue.MustangBroncoGUIUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MustangBroncoGUI;
-			};
-			name = Debug;
-		};
-		4234EC842602645B000898B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CX33TF45SH;
-				INFOPLIST_FILE = MustangBroncoGUIUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.carlyperdue.MustangBroncoGUIUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MustangBroncoGUI;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -574,20 +462,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4234EC7F2602645B000898B1 /* Build configuration list for PBXNativeTarget "MustangBroncoGUITests" */ = {
+		4234EC7F2602645B000898B1 /* Build configuration list for PBXNativeTarget "MustangBroncoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4234EC802602645B000898B1 /* Debug */,
 				4234EC812602645B000898B1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4234EC822602645B000898B1 /* Build configuration list for PBXNativeTarget "MustangBroncoGUIUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4234EC832602645B000898B1 /* Debug */,
-				4234EC842602645B000898B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
