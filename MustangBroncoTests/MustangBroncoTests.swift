@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import MustangBroncoGUI
+@testable import MustangBroncoApp
 
 class MustangBroncoTests: XCTestCase {
   

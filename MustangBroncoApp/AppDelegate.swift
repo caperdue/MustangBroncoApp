@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  MustangBroncoGUI
+//  MustangBroncoApp
 //
 //  Created by Carly Perdue on 3/17/21.
 //

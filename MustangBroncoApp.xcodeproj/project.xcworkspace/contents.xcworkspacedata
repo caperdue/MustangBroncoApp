@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/carly/Desktop/My Swift Apps/MustangBroncoGUI/MustangBroncoApp.xcodeproj">
    </FileRef>
 </Workspace>

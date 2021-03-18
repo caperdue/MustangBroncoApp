@@ -27,7 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4234EC5226026459000898B1 /* MustangBroncoGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MustangBroncoGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4234EC5226026459000898B1 /* MustangBroncoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MustangBroncoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4234EC5526026459000898B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4234EC5726026459000898B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4234EC5926026459000898B1 /* MustangBroncoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MustangBroncoController.swift; sourceTree = "<group>"; };
@@ -61,8 +61,8 @@
 		4234EC4926026459000898B1 = {
 			isa = PBXGroup;
 			children = (
-				4234EC5426026459000898B1 /* MustangBroncoGUI */,
-				4234EC6B2602645B000898B1 /* MustangBroncoGUITests */,
+				4234EC5426026459000898B1 /* MustangBroncoApp */,
+				4234EC6B2602645B000898B1 /* MustangBroncoTests */,
 				4234EC5326026459000898B1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 		4234EC5326026459000898B1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4234EC5226026459000898B1 /* MustangBroncoGUI.app */,
+				4234EC5226026459000898B1 /* MustangBroncoApp.app */,
 				4234EC682602645B000898B1 /* MustangBroncoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4234EC5426026459000898B1 /* MustangBroncoGUI */ = {
+		4234EC5426026459000898B1 /* MustangBroncoApp */ = {
 			isa = PBXGroup;
 			children = (
 				4234EC5526026459000898B1 /* AppDelegate.swift */,
@@ -87,24 +87,24 @@
 				4234EC602602645B000898B1 /* LaunchScreen.storyboard */,
 				4234EC632602645B000898B1 /* Info.plist */,
 			);
-			path = MustangBroncoGUI;
+			path = MustangBroncoApp;
 			sourceTree = "<group>";
 		};
-		4234EC6B2602645B000898B1 /* MustangBroncoGUITests */ = {
+		4234EC6B2602645B000898B1 /* MustangBroncoTests */ = {
 			isa = PBXGroup;
 			children = (
 				4234EC6C2602645B000898B1 /* MustangBroncoTests.swift */,
 				4234EC6E2602645B000898B1 /* Info.plist */,
 			);
-			path = MustangBroncoGUITests;
+			path = MustangBroncoTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4234EC5126026459000898B1 /* MustangBroncoGUI */ = {
+		4234EC5126026459000898B1 /* MustangBroncoApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4234EC7C2602645B000898B1 /* Build configuration list for PBXNativeTarget "MustangBroncoGUI" */;
+			buildConfigurationList = 4234EC7C2602645B000898B1 /* Build configuration list for PBXNativeTarget "MustangBroncoApp" */;
 			buildPhases = (
 				4234EC4E26026459000898B1 /* Sources */,
 				4234EC4F26026459000898B1 /* Frameworks */,
@@ -114,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = MustangBroncoGUI;
+			name = MustangBroncoApp;
 			productName = MustangBroncoGUI;
-			productReference = 4234EC5226026459000898B1 /* MustangBroncoGUI.app */;
+			productReference = 4234EC5226026459000898B1 /* MustangBroncoApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4234EC672602645B000898B1 /* MustangBroncoTests */ = {
@@ -155,7 +155,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4234EC4D26026459000898B1 /* Build configuration list for PBXProject "MustangBroncoGUI" */;
+			buildConfigurationList = 4234EC4D26026459000898B1 /* Build configuration list for PBXProject "MustangBroncoApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -168,7 +168,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4234EC5126026459000898B1 /* MustangBroncoGUI */,
+				4234EC5126026459000898B1 /* MustangBroncoApp */,
 				4234EC672602645B000898B1 /* MustangBroncoTests */,
 			);
 		};
@@ -218,7 +218,7 @@
 /* Begin PBXTargetDependency section */
 		4234EC6A2602645B000898B1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4234EC5126026459000898B1 /* MustangBroncoGUI */;
+			target = 4234EC5126026459000898B1 /* MustangBroncoApp */;
 			targetProxy = 4234EC692602645B000898B1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -366,12 +366,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CX33TF45SH;
-				INFOPLIST_FILE = MustangBroncoGUI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MustangBroncoApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.carlyperdue.MustangBroncoGUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlyperdue.MustangBroncoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -385,12 +385,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CX33TF45SH;
-				INFOPLIST_FILE = MustangBroncoGUI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MustangBroncoApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.carlyperdue.MustangBroncoGUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlyperdue.MustangBroncoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -404,18 +404,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CX33TF45SH;
-				INFOPLIST_FILE = MustangBroncoGUITests/Info.plist;
+				INFOPLIST_FILE = MustangBroncoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.carlyperdue.MustangBroncoGUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlyperdue.MustangBroncoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MustangBroncoGUI.app/MustangBroncoGUI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MustangBroncoApp.app/MustangBroncoApp";
 			};
 			name = Debug;
 		};
@@ -426,25 +426,25 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CX33TF45SH;
-				INFOPLIST_FILE = MustangBroncoGUITests/Info.plist;
+				INFOPLIST_FILE = MustangBroncoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.carlyperdue.MustangBroncoGUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlyperdue.MustangBroncoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MustangBroncoGUI.app/MustangBroncoGUI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MustangBroncoApp.app/MustangBroncoApp";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4234EC4D26026459000898B1 /* Build configuration list for PBXProject "MustangBroncoGUI" */ = {
+		4234EC4D26026459000898B1 /* Build configuration list for PBXProject "MustangBroncoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4234EC7A2602645B000898B1 /* Debug */,
@@ -453,7 +453,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4234EC7C2602645B000898B1 /* Build configuration list for PBXNativeTarget "MustangBroncoGUI" */ = {
+		4234EC7C2602645B000898B1 /* Build configuration list for PBXNativeTarget "MustangBroncoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4234EC7D2602645B000898B1 /* Debug */,

@@ -1,6 +1,6 @@
 //
-//  ViewController.swift
-//  MustangBroncoGUI
+//  MustangBroncoController.swift
+//  MustangBroncoApp
 //
 //  Created by Carly Perdue on 3/17/21.
 //
