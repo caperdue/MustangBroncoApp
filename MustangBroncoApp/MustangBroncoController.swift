@@ -16,6 +16,7 @@ class MustangBroncoController: UIViewController {
   
   // Get UI components
   @IBOutlet weak var headerView: UIView!
+  @IBOutlet weak var innerView: UIView!
   @IBOutlet weak var inputTextField: UITextField!
   @IBOutlet weak var submitButton: UIButton!
   
@@ -35,6 +36,7 @@ class MustangBroncoController: UIViewController {
     
     // Make the elements have a rounded background
     headerView.layer.cornerRadius = 10
+    innerView.layer.cornerRadius = 10
     submitButton.layer.cornerRadius = 10
   }
   
