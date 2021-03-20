@@ -13,4 +13,4 @@ Displays a fun message on the app! Will display a message based on input entered
 1. Navigate to the 'MustangBroncoTests' folder inside XCode
 2. Click the 'MustangBroncoTests.swift' file
 3. Click any of the diamond shaped buttons next to the left next to the code. To run them all at once, hit the diamond next to the class. To run individual tests, click the diamond next to that function.
-4. View test results in the console. If the console is not show, go to the menu bar and navigate to View > Debug Area > Activate Console
+4. View test results in the console. If the console is not shown, go to the menu bar and navigate to View > Debug Area > Activate Console
