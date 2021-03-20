@@ -112,15 +112,9 @@ class MustangBroncoController: UIViewController {
    */
   func getDisplayMessage(_ userNumber: Int) -> String {
     // Check user input to see what message to display
-    if userNumber % 3 == 0 && userNumber % 5 == 0 {
-      return "MustangBronco"
-    }
-    else if userNumber % 3 == 0 {
-      return "Mustang"
-    }
-    else if userNumber % 5 == 0 {
-      return "Bronco"
-    }
+    if userNumber % 3 == 0 && userNumber % 5 == 0 { return "MustangBronco" }
+    else if userNumber % 3 == 0 { return "Mustang" }
+    else if userNumber % 5 == 0 { return "Bronco" }
     
     return String(userNumber)
   }
